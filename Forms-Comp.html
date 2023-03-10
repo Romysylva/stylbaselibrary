@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dist/css/Components.min.css"/>
+    <title>Forms Component</title>
+  </head>
+  <body>
+    <!-- FORMS -->
+    <section>
+      <!-- Simple Form Sign in Form -->
+      <h2 class="text-xl center UP">Simple Log in Form</h2>
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            placeholder="Email"
+            aria-describedby="emailHelp"
+            required
+          />
+          <small id="emailHelp" class="form-text text-muted"
+            >We'll never share your email with anyone else.</small
+          >
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            placeholder="Password"
+            id="exampleInputPassword1"
+            required
+          />
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <label class="form-check-label" for="exampleCheck1"
+            >Remember Password</label
+          >
+        </div>
+        <button type="submit" class="btn btn-prim-c">Submit</button>
+      </form>
+
+      <br />
+      <!-- Form groups -->
+      <h2 class="text-xl center UP">Form Groups</h2>
+      <form>
+        <div class="form-group">
+          <label for="formGroupExampleInput">Example label</label>
+          <input
+            type="text"
+            class="form-control"
+            id="formGroupExampleInput"
+            placeholder="Example input placeholder"
+          />
+        </div>
+        <div class="form-group">
+          <label for="formGroupExampleInput2">Another label</label>
+          <input
+            type="text"
+            class="form-control"
+            id="formGroupExampleInput2"
+            placeholder="Another input placeholder"
+          />
+        </div>
+      </form>
+      <!-- Form grid -->
+      <h2>Form grid</h2>
+      <form>
+        <div class="form-grid col-3">
+          <div class="col-lg-3">
+            <input type="text" class="form-control" placeholder="First name" />
+            <input type="text" class="form-control" placeholder="First name" />
+          </div>
+          <div class="col-md-3">
+            <input type="text" class="form-control" placeholder="First name" />
+          </div>
+
+          <div class="col-lg-3">
+            <input type="text" class="form-control" placeholder="Last name" />
+            <input type="text" class="form-control" placeholder="Last name" />
+          </div>
+          <!-- Comment out with 6 column grid -->
+          <div class="col-lg-3">
+            <input type="text" class="form-control" placeholder="Last name" />
+            <input type="text" class="form-control" placeholder="Last name" />
+          </div>
+          <div class="col-lg-3">
+            <input type="text" class="form-control" placeholder="Last name" />
+            <input type="text" class="form-control" placeholder="Last name" />
+          </div>
+          <div class="col-lg-3">
+            <input type="text" class="form-control" placeholder="Last name" />
+            <input type="text" class="form-control" placeholder="Last name" />
+          </div>
+        </div>
+      </form>
+
+      <!-- Form row -->
+      <h2>Form row</h2>
+      <form>
+        <div class="form-inline">
+          <div class="col col-md-3">
+            <input type="text" class="form-control" placeholder="First name" />
+          </div>
+          <div class="col col-md-3">
+            <input type="text " class="form-control" placeholder="Last name" />
+          </div>
+        </div>
+      </form>
+
+      <!-- Registration Form -->
+      <h2 class="text-xl center UP">Form Registration</h2>
+      <form style="width: 750px; padding: 1rem;" class="btn-outline-dark-c">
+        <div class="form-row">
+          <div class="form-row col-2">
+            <div class="form-group col-lg-3">
+              <label for="inputEmail4">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="inputEmail4"
+                placeholder="Your Email"
+                required
+              />
+            </div>
+            <div class="form-group col-sm-3">
+              <label for="inputPassword">Password</label>
+              <input
+                type="password"
+                class="form-control"
+                id="inputPassword"
+                placeholder="Your Password"
+                required
+              />
+            </div>
+            <div class="form-group col-sm-3">
+              <label for="inputPassword">Repeat Password</label>
+              <input
+                type="password"
+                class="form-control"
+                id="inputPassword"
+                placeholder="Your Password"
+                required
+              />
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputAddress">Address</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputAddress"
+            placeholder="1234 Main St"
+          />
+        </div>
+        <div class="form-group">
+          <label for="inputAddress2">Address 2</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputAddress2"
+            placeholder="Apartment, studio, or floor"
+          />
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputCity">City</label>
+            <input type="text" class="form-control" id="inputCity" />
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputState">State</label>
+            <select id="inputState" class="form-control">
+              <option selected>Choose...</option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="form-group col-md-2">
+            <label for="inputZip">Zip</label>
+            <input type="text" class="form-control" id="inputZip" />
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck" />
+            <label class="form-check-label" for="gridCheck">
+              Check me out
+            </label>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-outline-success-c btn-block">
+          Sign in
+        </button>
+      </form>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,96 @@
+// VARIABLES COLORS 
+
+$prim-c: #1177ff;
+$sec-c: #9daaa0;
+$success-c: #22aa44;
+$danger-c: #cc3b3b;
+$warning-c: #ffbb33;
+$info-c: #11a2b2;
+$light-c: #faf9f7;
+$dark-c: #0a000e;
+$clr-primary-1: hsl(205, 86%, 17%);
+$clr-primary-2: hsl(205, 77%, 27%);
+$clr-primary-3: hsl(205, 72%, 37%);
+$clr-primary-4: hsl(205, 63%, 48%);
+$clr-primary-5: #49a6e9;
+/* lighter shades of primary color */
+$clr-primary-6: hsl(205, 89%, 70%);
+$clr-primary-7: hsl(205, 90%, 76%);
+$clr-primary-8: hsl(205, 86%, 81%);
+$clr-primary-9: hsl(205, 90%, 88%);
+$clr-primary-10: hsl(205, 100%, 96%);
+/* darkest grey - used for headings */
+$clr-grey-1: hsl(209, 61%, 16%);
+$clr-grey-2: hsl(211, 39%, 23%);
+$clr-grey-3: hsl(209, 34%, 30%);
+$clr-grey-4: hsl(209, 28%, 39%);
+/* grey used for paragraphs */
+$clr-grey-5: hsl(210, 22%, 49%);
+$clr-grey-6: hsl(209, 23%, 60%);
+$clr-grey-7: hsl(211, 27%, 70%);
+$clr-grey-8: hsl(210, 31%, 80%);
+$clr-grey-9: hsl(212, 33%, 89%);
+$clr-grey-10: hsl(210, 36%, 96%);
+$clr-white: #fff;
+$clr-red-dark: hsl(360, 67%, 44%);
+$clr-red-light: hsl(360, 71%, 66%);
+$clr-green-dark: hsl(125, 67%, 44%);
+$clr-green-light: hsl(125, 71%, 66%);
+$clr-black: #222;
+$ff-primary: "Roboto", sans-serif;
+$ff-secondary: "Open Sans", sans-serif;
+$transition: all 0.3s linear;
+
+// BACKGROUND COLORS 
+
+$btn-bg-prim-c: $prim-c;
+$btn-bg-sec-c: $sec-c;
+$btn-bg-success-c: $success-c;
+$btn-bg-danger-c: $danger-c;
+$btn-bg-warning-c: $warning-c;
+$btn-bg-info-c: $info-c;
+$btn-bg-light-c: $light-c;
+$btn-bg-dark-c: $dark-c;
+
+// neon colors
+
+$NeonRed: #f40303;
+$NeonGreen: #03f423;
+$NeonBlue: #032ff4;
+$NeonYellow: #f0f403;
+$NeonWhite: #fff;
+
+// SOCIALS MEDIA CARDS 
+
+$facebook: #395599;
+$instagram: #ce2f82;
+$twitter: #1c9deb;
+$pinterest: #d73532;
+$linkedin: #4064ad;
+$youtube: #f80000;
+$snapchat: #ffee00;
+
+// PROGRAMING LANGUAGES 
+
+$js: #efd81d;
+$vuejs: #3fb37f;
+$reaact: #00d8ff;
+$angular: #dd0330;
+$php: #885632;
+
+// SCREEN RESPLUTION SIZES
+
+$ipad-pro: 1024px;
+$ipad: 768px;
+$phone: 500px;
+
+// TEXT SIZE MAPS
+
+$Font-Size_Map: (
+    'xxl': 1rem,
+    'xl': 1rem,
+    'lg': 1rem,
+    'md': 1rem,
+    'sm': 1rem,
+    'xs': 1rem,
+)
